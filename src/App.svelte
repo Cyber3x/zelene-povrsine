@@ -14,7 +14,7 @@
     {
       imageSrc: "INDUSTRIJSKA_1.png",
       imageAlt: "Zelene površine na industrijskoj zoni",
-      name: "Industrijska zona",
+      name: "Industrijska zona (Podravka)",
       totalArea:  "197,874.67",
       greenArea: "25,138.14",
       greenPart: "12.70",
@@ -23,7 +23,7 @@
     {
       imageSrc: "REKREACIJSKA_1.png",
       imageAlt: "Zelene površine na rekreacijskoj zoni",
-      name: "Rekreacijska zona",
+      name: "Rekreacijska zona (Gradski stadion Koprivnica)",
       totalArea: "143,395.52",
       greenArea: "87,000.23",
       greenPart: "60.67",
@@ -32,7 +32,7 @@
     {
       imageSrc: "OBRAZOVNA_1.png",
       imageAlt: "Zelene površine na obrazovnoj zoni",
-      name: "Obrazovna zona",
+      name: "Obrazovna zona (Srednja škola Koprivnica)",
       totalArea: "100,319.59",
       greenArea: "34,069.23",
       greenPart: "33.96",
@@ -41,7 +41,7 @@
     {
       imageSrc: "TURISTICKA_1.png",
       imageAlt: "Zelene površine na turistickoj zoni",
-      name: "Turistička zona",
+      name: "Turistička zona (Gradski park i Zrinski trg)",
       totalArea: "111,130.81",
       greenArea: "70,825.30",
       greenPart: "63.73%",
@@ -50,7 +50,7 @@
     {
       imageSrc: "STAMBENA_1.png",
       imageAlt: "Zelene površine na stambenoj zoni",
-      name: "Stambena zona",
+      name: "Stambena zona (Trg kralja Zvonimira)",
       totalArea: "87,962.65",
       greenArea: "27,852.50",
       greenPart: "31.66%",
@@ -59,7 +59,7 @@
     {
       imageSrc: "TRGOVACKA_1.png",
       imageAlt: "Zelene površine na trgovačkoj zoni",
-      name: "Trgovačka zona",
+      name: "Trgovačka zona (Supernova i Pevex)",
       totalArea: "159,652.82",
       greenArea: "36,389.23",
       greenPart: "22.80",
@@ -186,4 +186,5 @@
     <img src={imageSrc} alt={imageAlt}>
   {/each}
   <p class="bg-gray-900 text-gray-600 text-sm md:text-lg text-center p-1">Izradili <a href="mailto:stjepan.djelekovcan@gmail.com?subject=Oko stranice Zelene Površine">Stjepan Đelekovčan</a> i <a href="https://github.com/Cyber3x">Neven Lukić</a>. Slike preuzete s <a href="https://www.google.com/maps/">Google Maps</a></p>
+   <p class="bg-gray-900 text-gray-600 text-sm md:text-md text-center">Ne garantiramo da su mjerenja u potpunosti točna.</p>
 </div>
